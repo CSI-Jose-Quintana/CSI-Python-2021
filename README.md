@@ -10,7 +10,7 @@
 <br>
 
 # Course Description
-#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming will allow you to visualize concepts unnatural to your brain. 
+#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming may modify your perception. 
 
 2 meetings per cycle
 24 courses in semester
@@ -46,16 +46,16 @@ At least 300 points.
 * [Data Types and Variables](/../../tree/main/Modules/Module3/Module3.md)
 * [String Operations and Functions](/../../tree/main/Modules/Module4/Module4.md).
 * [Boolean Logic **(Rock Paper Scissors)**](/../../tree/main/Modules/Module5/Module5.md)
-* [Looping (for, while)](/../../tree/main/Modules/Module6/Module6.md)
-* [Objects and the JSON Format]((/../../tree/main/Modules/Module7/Module7.md))
+* [Objects and the JSON Format](/../../tree/main/Modules/Module6/Module6.md)
+* [Looping (for, while)](/../../tree/main/Modules/Module7/Module7.md)
 * 2D Arrays **(Snake)**
 * Canvas, Vectors, Putting it all together. **(Egg Catcher)** 
 
 ## Suggested projects
-* Egg Catcher
-* Rock Paper Scissors
+* [Bonus-ASCII-Art](/../../tree/main/Projects/Bonus-ASCII-Art/Bonus-ASCII-Art.md)
+* [Geometric-Functions](/../../tree/main/Projects/Geometric-Functions/Geometric-Functions.md)
+* [Projectile-Motion](/../../tree/main/Projects/Projectile-Motion/Projectile-Motion.md)
 * Hangman
 * Snake
-* Conway's game of life
 * Serial Interfacing with Arduino
 * Markdown Writer
