@@ -55,14 +55,6 @@ def play(word):
   else:
     print("I'm sorry, but you ran out of tries.  The word was" + word + ". Try again!")
 
-
-
-
-      
-
-
-
-
 def display_hangman(tries):
     stages = [  """
                     --------
@@ -128,4 +120,3 @@ def display_hangman(tries):
                     -
                     """,
     ]
-
