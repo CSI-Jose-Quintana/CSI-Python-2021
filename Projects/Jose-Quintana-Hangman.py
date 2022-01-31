@@ -1,4 +1,5 @@
 import random
+
 word_list = ["buchipluma", "guasibiri", "glopeta", "acicalao", "masucamba", "sandungueo", "pichaera", "feca", "blinblineo", "banshee" ]
 
 def get_word(word_list):
@@ -56,14 +57,14 @@ def play(word):
     print("I'm sorry, but you ran out of tries.  The word was" + word + ". Try again!")
 
 def display_hangman(tries):
-    stages = [  """
-                    --------
-                    |    |
-                    |    O
-                    |   /|\\
-                    |    |
-                    |   / \\
-                    -
+    stages = [ """    
+                      -------- 
+                      |    |   
+                      |    O   
+                      |   /|\\ 
+                      |    |   
+                      |   / \\ 
+                      -        
                     """,
                     """
                      --------
