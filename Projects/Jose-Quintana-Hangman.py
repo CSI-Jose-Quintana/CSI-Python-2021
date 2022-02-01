@@ -7,7 +7,7 @@ def get_word(word_list):
   return word.upper()
 
 def play(word):
-  word_completion = "_" * len(word)
+  word_completion = "-" * len(word)
   guessed = False
   guessed_letters = []
   guessed_words = []
@@ -34,7 +34,7 @@ def play(word):
         for index in indices:
           word_as_list[index] = guess
         word_completion = "".join(word_as_list)
-        if "_" not in word_completion:
+        if "-" not in word_completion:
           guessed = True
     elif len(guess) == len(word) and guess.isalpha():
       if guess in guessed_words:
@@ -121,3 +121,13 @@ def display_hangman(tries):
                     -
                     """,
     ]
+    return stages[tries]
+def main():
+  word = get_word(word_list)
+  play(word)
+  while input("Again? (Y/N) ").upper() == "Y":
+    word = get_word(word_list)
+    play(word)
+
+if __name__ == "__main__":
+  main()
